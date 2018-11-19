@@ -11,3 +11,9 @@ For one, Wiktionary is under Creative Commons so I won't have any restrictions o
 Second, Wiktionary pages contain some translation-information which can bootstrap some of the
 mapping operations.
 
+
+Python Dependencies:
+* xml (ElementTree)
+* bz2
+* mwparserfromhell
+
