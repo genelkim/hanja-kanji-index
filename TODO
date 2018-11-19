@@ -1,9 +1,13 @@
 
-1. Figure out how to use the index to quickly retrieve the relevant page.
-2. Figure out how to parse the documents for relevant info (translations, hanja, definition, etc.) -- use python markdown to parse.
-3. Look into more fancy matching (rather than exact kanji<->hanja match in the exactly matched file), 
+DONE 1. Figure out how to use the index to quickly retrieve the relevant page.
+2. Figure out how to parse the documents for relevant info (translations, hanja, definition, etc.) -- use python mwparserfromhell to parse.
+  - DONE - basic parsing for Hanja example 注意
+  - figure out how to identify if a character is hiragana, hangul, or chinese characters to assist in robust parsing.
+  - clean up the code..
+3. Write exact kanji<->hanja matched search functionality [given hanja or kanji, list words from both languages containing the character].
+4. Look into more fancy matching (rather than exact kanji<->hanja match in the exactly matched file), 
 
-4. Implement all relevant words from character search -- 
+5. Implement all relevant words from character search -- 
   -- parse documents and make a character -> word index
   -- then given a character, display all the words (and preferably the full hanja)
   -- then hopefully we can align with the kanji and hiragana to get possible translations
