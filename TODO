@@ -13,6 +13,11 @@ DONE 1. Figure out how to use the index to quickly retrieve the relevant page.
   -- then hopefully we can align with the kanji and hiragana to get possible translations
 
 
+* Look into the lists available in Wiktionary for subsets of documents to focus on first:
+  - 일본어 명사, 일본어 한자어, 한국어 한자어, etc.
+
+
+
 Other stretch goals:
 - implement a method for guessing the same but representationally difference characters (i.e. hanja,kanji writing distinctions)
 - connect with English-Korean and English-Japanese dictionary to get definitions in English, as well as, three-way agreement clusters (use English as an intermediary).
